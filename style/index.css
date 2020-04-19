@@ -51,13 +51,81 @@ table {
     box-sizing: border-box;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    border: 2px solid black;
+}
+
 html, body {
+    font-size :62.5%;
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+ol {
+    margin: 2px 2px 2px 2px;
+    }
+
+
+li {
+    display: inline;
+  }
+
+
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
+
+    font-size: 20px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
@@ -100,6 +168,8 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
+
 
 .middle-content .boxes .box {
     width: 12.5%;
