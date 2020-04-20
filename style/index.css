@@ -155,7 +155,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 20px 135px 20px 135px;
+    margin: 20px 165px 20px 165px;
     border-bottom: 1px dashed black;
 }
 
@@ -167,7 +167,7 @@ p {
 }
 
 .middle-content {
-    margin: 20px 135px 20px 135px;
+    margin: 20px 165px 20px 165px;
     border-bottom: 1px dashed black;
 }
 
@@ -226,7 +226,7 @@ p {
 
 .bottom-content {
     display: flex;
-    margin: 20px 135px 20px 135px;
+    margin: 20px 185px 20px 185px;
     justify-content: space-around;
 }
 
@@ -282,24 +282,74 @@ footer nav a {
     }
 }
 @media(max-width:500px) {
-    .navbar a{
-        margin: 10px 10px 10px 10px;  
+
+    img.logo {
+        margin: 10px 150px 30px 10px;
     }
-    .top-content {
+    .navbar a {
         display: flex;
-        justify-content: flex-start;
-        margin: 20px 40px 20px 40px;     
-    }
-    .middle-content {
-        margin: 20px 40px 20px 40px;
-        border-bottom: 1px dashed black;
-    }
-    .bottom-content   {
-        margin: 20px 40px 20px 40px;  
-    }
-    .bottom-content .text-container {
+        flex-direction: column;
+        align-content: center;
         font-size: 2rem;
-        padding-right: 4%;
-        margin: 20px 40px 20px 40px;
+        color: black;
+        text-decoration: none;
+        margin: 20px 150px 20px 2px;
+    }
+    a {
+        background-color: grey;
+        text-align: center;
+        margin: 20px 1px 20px 1px;
+    }
+    
+.top-content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 20px 1px 20px 1px;
+}
+.mobilep1 {
+    font-size: 1rem;
+    margin: 1px 1px 1px 1px; 
+}
+.mobilep2 {
+    font-size: 1rem;
+    margin: 1px 1px 1px 1px; 
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.middle-content .boxes .box5 {
+    display: none;
+    background-color: crimson;
+}
+.middle-content .boxes .box6 {
+    display: none;
+    background-color: forestgreen;
+}
+.middle-content .boxes .box7 {
+    display: none;
+    background-color: darkorchid;
+}
+.middle-content .boxes .box8 {
+    display: none;
+    background-color: hotpink;
+}
+.middle-content .boxes .box9 {
+    display: none;
+    background-color: indigo;
+}
+.middle-content .boxes .box10 {
+    display: none;
+    background-color: dodgerblue;
+}
+.bottom-content {
+    display: none;
+   
+}
+    footer {
+        display: none;
     }
 }
