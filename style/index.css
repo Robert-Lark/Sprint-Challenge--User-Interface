@@ -112,16 +112,41 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
-ol {
-    margin: 2px 2px 2px 2px;
-    }
 
+div.logo1 {
+    border: 2px solid black;
+    margin: 1px 1px 0px 1px;
+}
 
-li {
-    display: inline;
-  }
+div img.logo {
+    
+}
 
+section.navbar {
+    border: 2px solid black;
+    margin: 20px 20px 20px 500px;
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
 
+.navbar a {
+    font-size: 2rem;
+    color: black;
+    text-decoration: none;
+}
+
+.jumbo {
+    width: 1200px;
+}
+
+section.banner {
+    display: flex;
+    justify-content: center;
+}
 
 h1, h2, h3, h4, h5 {
 
@@ -180,6 +205,37 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box1 {
+    background-color: teal;
+}
+.middle-content .boxes .box2 {
+    background-color: gold;
+}
+.middle-content .boxes .box3     {
+    background-color: cadetblue;
+}
+.middle-content .boxes .box4 {
+    background-color: coral;
+}
+.middle-content .boxes .box5 {
+    background-color: crimson;
+}
+.middle-content .boxes .box6 {
+    background-color: forestgreen;
+}
+.middle-content .boxes .box7 {
+    background-color: darkorchid;
+}
+.middle-content .boxes .box8 {
+    background-color: hotpink;
+}
+.middle-content .boxes .box9 {
+    background-color: indigo;
+}
+.middle-content .boxes .box10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
