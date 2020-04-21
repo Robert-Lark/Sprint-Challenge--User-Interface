@@ -110,9 +110,7 @@ nav.navbar {
     width: 80%;
     display: flex;
     justify-content: space-around;
-
 }
-
 .navbar a {
     margin: 1% 0% 0% 0%;
     font-size: 2rem;
@@ -253,128 +251,7 @@ footer nav a {
     text-decoration: none;
 }
 
-@media(min-width:810px) {
-    div {
-        animation-duration: 2s;
-        animation-name: bounceIn;
-      }
-      @keyframes bounceIn {
-        0% {
-          transform: scale(0.1);
-          opacity: 0;
-        }
-        60% {
-          transform: scale(1.2);
-          opacity: 1;
-        }
-        100% {
-          transform: scale(1);
-        }
-      }
-}
 
-@media(max-width:800px) {
-    .navbar a{
-        margin: 10px 10px 10px 10px;  
-    }
-    .top-content {
-        display: flex;
-        justify-content: flex-start;
-        margin: 20px 40px 20px 40px;     
-    }
-    .middle-content {
-        margin: 20px 40px 20px 40px;
-        border-bottom: 1px dashed black;
-    }
-    .bottom-content   {
-        margin: 20px 40px 20px 40px;  
-    }
-    .bottom-content .text-container {
-        font-size: 2rem;
-        padding-right: 4%;
-        margin: 20px 40px 20px 40px;
-    }
-}
-
-
-@media(max-width:500px) {
-
-    .navbar, .top-content, .middle-content, .boxes{
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-    }
-
-    a {
-        border: 1px solid grey;
-        border-radius: 25px;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        color:red;
-        padding: 0%;
-    }
-    a:hover {
-        background-color: grey;
-        color: black;
-    }
-
-    img.logo {
-        margin: 10px 100px 30px 120px;
-    }
-
-.mobileheading {
-    margin: 0% -70% 0% -70%;
-}
-
-p {
-    display: flex;
-    margin: 0% -70% 0% -70%;
-    color: grey;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5rem;
-}
-.box{
-    display: flex;
-    max-height: 90px;
-    min-width: 90px;
-    font-size: 1.5rem;
-}
-
-    .middle-content .boxes .box5 {
-        display: none;
-        background-color: crimson;
-    }
-    .middle-content .boxes .box6 {
-        display: none;
-        background-color: forestgreen;
-    }
-    .middle-content .boxes .box7 {
-        display: none;
-        background-color: darkorchid;
-    }
-    .middle-content .boxes .box8 {
-        display: none;
-        background-color: hotpink;
-    }
-    .middle-content .boxes .box9 {
-        display: none;
-        background-color: indigo;
-    }
-    .middle-content .boxes .box10 {
-        display: none;
-        background-color: dodgerblue;
-    }
-    .bottom-content {
-        display: none;
-       
-    }
-        footer {
-            display: none;
-        }
-    }
-
-    /*
 
     
 
