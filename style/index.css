@@ -98,36 +98,33 @@ table {
 
 
 
-
-
-
-
-
-! {
-    border: 2px solid black;
-}
-
 html, body {
     font-size :62.5%;
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
-section.navbar {
-    margin: 10px 10px 20px 90px;
-    width: 90%;
+nav.navbar {
+    
+    margin: 3% 0% 2% 7%;
+    width: 80%;
     display: flex;
-    justify-content: space-evenly;
-    align-items: ;
-    padding: ;
-    font-size: 14px;
+    justify-content: space-around;
+
+}
+@keyframes change{
+    from {background-color: blue;}
+    to {background-color: red;}
+  }
+.navbar a {
+    margin: 1% 0% 0% 0%;
+    font-size: 2rem;
+    color: grey;
+    text-decoration: none;
 }
 
-.navbar a {
-    font-size: 2rem;
-    color: black;
-    text-decoration: none;
-    margin: 20px 120px 20px 120px;
+img.logo {
+    margin: 0% 0% 0% -4.75%;
 }
 
 .jumbo {
@@ -259,6 +256,26 @@ footer nav a {
     text-decoration: none;
 }
 
+@media(min-width:810px) {
+    div {
+        animation-duration: 2s;
+        animation-name: bounceIn;
+      }
+      @keyframes bounceIn {
+        0% {
+          transform: scale(0.1);
+          opacity: 0;
+        }
+        60% {
+          transform: scale(1.2);
+          opacity: 1;
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+}
+
 @media(max-width:800px) {
     .navbar a{
         margin: 10px 10px 10px 10px;  
@@ -281,75 +298,92 @@ footer nav a {
         margin: 20px 40px 20px 40px;
     }
 }
+
+
 @media(max-width:500px) {
 
-    img.logo {
-        margin: 10px 150px 30px 10px;
-    }
-    .navbar a {
+    .navbar, .top-content, .middle-content, .boxes{
         display: flex;
         flex-direction: column;
         align-content: center;
-        font-size: 2rem;
-        color: black;
-        text-decoration: none;
-        margin: 20px 150px 20px 2px;
     }
+
     a {
-        background-color: grey;
+        border: 1px solid grey;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
         text-align: center;
-        margin: 20px 1px 20px 1px;
+        color:red;
+        padding: 0%;
     }
-    
-.top-content {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    margin: 20px 1px 20px 1px;
-}
-.mobilep1 {
-    font-size: 1rem;
-    margin: 1px 1px 1px 1px; 
-}
-.mobilep2 {
-    font-size: 1rem;
-    margin: 1px 1px 1px 1px; 
+    a:hover {
+        background-color: grey;
+        color: black;
+    }
+
+    img.logo {
+        margin: 10px 100px 30px 120px;
+    }
+
+.mobileheading {
+    margin: 0% -70% 0% -70%;
 }
 
-.boxes {
+p {
     display: flex;
-    flex-direction: column;
-    align-content: center;
+    margin: 0% -70% 0% -70%;
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
 }
-.middle-content .boxes .box5 {
-    display: none;
-    background-color: crimson;
+.box{
+    display: flex;
+    max-height: 90px;
+    min-width: 90px;
+    font-size: 1.5rem;
 }
-.middle-content .boxes .box6 {
-    display: none;
-    background-color: forestgreen;
-}
-.middle-content .boxes .box7 {
-    display: none;
-    background-color: darkorchid;
-}
-.middle-content .boxes .box8 {
-    display: none;
-    background-color: hotpink;
-}
-.middle-content .boxes .box9 {
-    display: none;
-    background-color: indigo;
-}
-.middle-content .boxes .box10 {
-    display: none;
-    background-color: dodgerblue;
-}
-.bottom-content {
-    display: none;
-   
-}
-    footer {
+
+    .middle-content .boxes .box5 {
         display: none;
+        background-color: crimson;
     }
-}
+    .middle-content .boxes .box6 {
+        display: none;
+        background-color: forestgreen;
+    }
+    .middle-content .boxes .box7 {
+        display: none;
+        background-color: darkorchid;
+    }
+    .middle-content .boxes .box8 {
+        display: none;
+        background-color: hotpink;
+    }
+    .middle-content .boxes .box9 {
+        display: none;
+        background-color: indigo;
+    }
+    .middle-content .boxes .box10 {
+        display: none;
+        background-color: dodgerblue;
+    }
+    .bottom-content {
+        display: none;
+       
+    }
+        footer {
+            display: none;
+        }
+    }
+
+    /*
+
+    
+
+    
+    
+
+
+
+
